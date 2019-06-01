@@ -14,7 +14,7 @@ class App extends Component {
   };
   handleForm = event => {
     event.preventDefault();
-    fetch("", {
+    fetch("http://0580561e.ngrok.io/addposition", {
       method: "POST",
       headers: {
         "Content-type": "application/x-www-form-urlencoded"
